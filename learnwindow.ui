@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LearnWindow</class>
+ <widget class="QDialog" name="LearnWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>407</width>
+    <height>303</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>407</width>
+    <height>303</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nauka słówek</string>
+  </property>
+  <widget class="QPushButton" name="check_button">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>270</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sprawdź</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>210</y>
+     <width>320</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="buttonsLayout">
+    <item>
+     <widget class="QPushButton" name="incorrectly_button">
+      <property name="text">
+       <string>Nie wiem</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="almost_button">
+      <property name="text">
+       <string>Prawie</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="correctly_button">
+      <property name="text">
+       <string>Wiem</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="learnedWordsLabel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nauczone słowa</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_new_number">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>43</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="new_words_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nowe słowa na dziś: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="synonym_label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>110</y>
+     <width>169</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Synonimy:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="eng_word_label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>169</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Angielskie słowo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="synonym_label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>89</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Synonimy           :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pl_word_label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>80</y>
+     <width>169</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Polskie słowo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sentence_label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>89</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zdanie               :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="engWordLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>89</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Angielskie słowo:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sentence_label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>170</y>
+     <width>191</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zdanie               :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="plwordlabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>89</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Polskie słowo     :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="repeat_words_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Słowa do powtórki:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="repeated_words_label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Powtórzone słowa</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_repeat_number">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
